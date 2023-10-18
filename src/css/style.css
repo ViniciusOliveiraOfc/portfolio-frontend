@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root {
+    --fonte-primaria: 'Overpass', sans-serif;
+    --fonte-segundaria: 'Poppins', sans-serif;
+    --fonte-gigante: 4.5rem;
+    --fonte-gg: 3rem;
+    --fonte-grande: 2.4rem;
+    --fonte-normal: 1.6rem;
+}
+
+:root {
+    --cinza: #3f3f3f;
+    --verde: #42e46d;
+    --verde-escuro: #298342;
+    --branco: #ffffff;
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.header {
+    background-color: var(--cinza);
+    font-family: var(--fonte-primaria);
+    padding: 30px 15px;
+}
+
+.header .logo {
+    font-family: var(--fonte-segundaria);
+    font-size: var(--fonte-grande);
+    color: var(--verde);
+    padding: 0.7rem;
+    border: 3px solid var(--verde);
+    border-radius: 50%;
+    text-transform: none;
+    text-decoration: underline;
+    transition: 0.2s;
+}
+
+.header .logo:hover {
+    color: var(--branco);
+    border-color: var(--branco);
+}
+
+.header nav ul {
+    display: flex;
+}
+
+.header nav li a {
+    color: var(--verde);
+    font-size: var(--fonte-normal);
+    padding: 0.7rem 1.3rem;
+    text-decoration: none;
+    transition: 0.4s;
+    border-radius: 2rem;
+}
+
+.header nav li a:hover {
+    background-color: var(--verde-escuro);
+    color: var(--branco);
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.justify-content {
+    justify-content: space-between;
+}
+
+.alinhar-itens-centro {
+    align-items: center;
+}
