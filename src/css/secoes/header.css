@@ -1,0 +1,42 @@
+/*HEADER ---------------------------------*/
+.header {
+    background-color: var(--cinza);
+    font-family: var(--fonte-primaria);
+    padding: 30px 15px;
+}
+
+.header .logo {
+    font-family: var(--fonte-segundaria);
+    font-size: var(--fonte-grande);
+    color: var(--verde);
+    padding: 0.7rem;
+    border: 3px solid var(--verde);
+    border-radius: 50%;
+    text-transform: none;
+    text-decoration: underline;
+    transition: 0.2s;
+}
+
+.header .logo:hover {
+    color: var(--branco);
+    border-color: var(--branco);
+}
+
+.header nav ul {
+    display: flex;
+}
+
+.header nav li a {
+    color: var(--verde);
+    font-size: var(--fonte-normal);
+    padding: 0.7rem 1.3rem;
+    text-decoration: none;
+    transition: 0.4s;
+    border-radius: 2rem;
+    scroll-behavior: smooth;
+}
+
+.header nav li a:hover {
+    background-color: var(--verde-escuro);
+    color: var(--branco);
+}

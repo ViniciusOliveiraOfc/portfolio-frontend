@@ -4,20 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vinícius | Desenvolvedor Fullstack</title>
+
     <link rel="stylesheet" href="src/css/reset.css">
     <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/secoes/header.css">
+    <link rel="stylesheet" href="src/css/secoes/home.css">
+    <link rel="stylesheet" href="src/css/secoes/sobremim.css">
+    <link rel="stylesheet" href="src/css/secoes/habilidades.css">
+
 </head>
 <body>
-
     <header class="header">
         <div class="container">
             <div class="row justify-content alinhar-itens-centro">
                 <a href="#"><h1 class="logo">VN</h1></a>
                 <nav>
                     <ul>
-                        <li><a href="">Sobre Mim</a></li>
-                        <li><a href="">Habilidades</a></li>
-                        <li><a href="">Meus Projetos</a></li>
+                        <li><a href="#sobre-mim">Sobre Mim</a></li>
+                        <li><a href="#habilidades">Habilidades</a></li>
+                        <li><a href="#meus-projetos">Meus Projetos</a></li>
                     </ul>
                 </nav>
             </div>
@@ -46,9 +51,9 @@
             </div>
         </section>
         
-        <section class="sobre-mim">
+        <section class="sobre-mim" id="sobre-mim">
             <div class="container">
-                <div class="titulo-sobremim">
+                <div class="titulo-section">
                     <h1>Sobre Mim</h1>
                 </div>
                 <div class="div-sobremim">
@@ -68,6 +73,64 @@
             </div>
         </section>
 
+        <section class="habilidades" id="habilidades">
+            <div class="container">
+                <div class="titulo-section">
+                    <h1>Habilidades</h1>
+                </div>
+                <div class="articles-habilidades">
+                    <article class="article">
+                        <div class="img-habilidades"><img src="src/imgs/html-5.png" alt="Icone do html"></div>
+                        <div class="titulo-articles">
+                            <h3>HTML5</h3>
+                        </div>
+                        <div class="desc-habilidades">
+                            HTML5 é a linguagem usada para criar conteúdo na web, permitindo recursos avançados, como vídeos e áudio embutidos.
+                        </div>
+                    </article>
+                    <article class="article">
+                        <div class="img-habilidades"><img src="src/imgs/css-3.png" alt="Icone do css"></div>
+                        <div class="titulo-articles">
+                            <h3>CSS3</h3>
+                        </div>
+                        <div class="desc-habilidades">
+                            CSS3 é a tecnologia para estilizar páginas web, controlando cores, fontes, layout e animações.
+                        </div>
+                    </article>
+                    <article class="article">
+                        <div class="img-habilidades"><img src="src/imgs/js.png" alt="Icone do javascript"></div>
+                        <div class="titulo-articles">
+                            <h3>JavaScript</h3>
+                        </div>
+                        <div class="desc-habilidades">
+                            JavaScript é uma linguagem de programação para tornar páginas web interativas, respondendo a ações do usuário.
+                        </div>
+                    </article>
+                    <article class="article">
+                        <div class="img-habilidades"><img src="src/imgs/github.png" alt="Icone do github"></div>
+                        <div class="titulo-articles">
+                            <h3>GitHub</h3>
+                        </div>
+                        <div class="desc-habilidades">
+                            GitHub é uma plataforma para hospedar código-fonte, rastrear problemas e colaborar em projetos de software.
+                        </div>
+                    </article>
+                    <article class="article">
+                        <div class="img-habilidades"><img src="src/imgs/react.png" alt="Icone do react"></div>
+                        <div class="titulo-articles">
+                            <h3>React</h3>
+                        </div>
+                        <div class="desc-habilidades">
+                            React é uma biblioteca JavaScript para criar interfaces de usuário interativas, especialmente útil para aplicativos web e móveis.
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
     </main>
+
+    <footer>
+
+    </footer>
 </body>
 </html>

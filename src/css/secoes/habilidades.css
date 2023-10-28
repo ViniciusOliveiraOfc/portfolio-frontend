@@ -1,0 +1,42 @@
+/*SECTION HABILIDADES ---------------------------------*/
+.conteudo .habilidades {
+    background-color: var(--cinza);
+    padding: 30px 15px;
+    color: var(--branco);
+}
+
+.articles-habilidades {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.article {
+    font-size: var(--fonte-pequena);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;   
+    padding: 40px 20px;
+}
+
+.img-habilidades img{
+    width: 100px;
+}
+
+.titulo-articles {
+    font-size: var(--fonte-normal);
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    transition: .2s;
+}
+
+.desc-habilidades {
+    text-align: center;
+    transition: .2s;
+}
+
+.article:hover .titulo-articles, .article:hover .desc-habilidades {
+    color: #53bd6f;
+}
+
