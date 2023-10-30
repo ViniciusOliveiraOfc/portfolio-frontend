@@ -1,0 +1,54 @@
+.conteudo .meus-projetos {
+    background-color: var(--cinza);
+    padding: 30px 15px;
+    color: var(--branco);
+}
+
+.articles-projetos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    margin: 0 auto;
+    grid-gap: 20px;
+}
+
+.projeto {
+    border-radius: 10px;
+    position: relative;
+}
+
+.projeto img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+}
+
+.projeto h3 {
+    font-size: var(--fonte-pequena);
+    font-weight: normal;
+    position: absolute;      
+    opacity: 1;
+    background-color: #222222;
+    width: 100%;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    bottom: 0;
+}
+
+.informacoes-projeto {
+    padding: 20px;    
+    font-size: var(--fonte-pequena);
+    background-color: #000000;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: .3s;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+
+.projeto:hover, .projeto:hover .informacoes-projeto {
+    opacity: 0.8;
+}

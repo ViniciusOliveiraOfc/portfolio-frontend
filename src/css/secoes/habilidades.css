@@ -11,7 +11,7 @@
     justify-content: center;
 }
 
-.article {
+.articles-habilidades .article {
     font-size: var(--fonte-pequena);
     display: flex;
     flex-direction: column;
