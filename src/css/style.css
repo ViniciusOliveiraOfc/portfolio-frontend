@@ -29,6 +29,10 @@ body {
     font-size: var(--fonte-normal);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;

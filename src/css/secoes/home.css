@@ -10,7 +10,6 @@
 }
 
 .conteudo .home .texto-home {
-    width: 50%;
     color: var(--branco);
     font-size: var(--fonte-grande);
     display: flex;
@@ -60,4 +59,23 @@
 
 .img-home img {
     width: 100%;
+}
+
+@media (max-width: 1280px) {
+    .home .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home .texto-home {
+        text-align: center;
+        align-items: center;
+        width: fit-content;
+    }
+}
+
+@media (max-width: 530px) {
+    .home .img-home img{
+        width: 350px;
+    }
 }

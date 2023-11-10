@@ -9,6 +9,7 @@
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     margin: 0 auto;
     grid-gap: 20px;
+    padding-bottom: 5rem;
 }
 
 .projeto {
@@ -51,4 +52,16 @@
 
 .projeto:hover, .projeto:hover .informacoes-projeto {
     opacity: 0.8;
+}
+
+@media (max-width: 1280px) {
+    .meus-projetos .articles-projetos {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .meus-projetos .articles-projetos {
+        width: 95%;
+        grid-gap: 15px;
+    }
 }

@@ -1,189 +1,294 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vinícius | Desenvolvedor Fullstack</title>
 
-    <link rel="stylesheet" href="src/css/reset.css">
-    <link rel="stylesheet" href="src/css/style.css">
-    <link rel="stylesheet" href="src/css/secoes/header.css">
-    <link rel="stylesheet" href="src/css/secoes/home.css">
-    <link rel="stylesheet" href="src/css/secoes/sobremim.css">
-    <link rel="stylesheet" href="src/css/secoes/habilidades.css">
-    <link rel="stylesheet" href="src/css/secoes/projetos.css">
+    <link rel="shortcut icon" href="src/imgs/favicon.png" type="image/x-icon">
 
-</head>
-<body>
-    <header class="header">
-        <div class="container">
-            <div class="row justify-content alinhar-itens-centro">
-                <a href="#"><h1 class="logo">VN</h1></a>
-                <nav>
-                    <ul>
-                        <li><a href="#sobre-mim">Sobre Mim</a></li>
-                        <li><a href="#habilidades">Habilidades</a></li>
-                        <li><a href="#meus-projetos">Meus Projetos</a></li>
-                    </ul>
-                </nav>
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="src/css/secoes/header.css" />
+    <link rel="stylesheet" href="src/css/secoes/home.css" />
+    <link rel="stylesheet" href="src/css/secoes/sobremim.css" />
+    <link rel="stylesheet" href="src/css/secoes/habilidades.css" />
+    <link rel="stylesheet" href="src/css/secoes/projetos.css" />
+    <link rel="stylesheet" href="src/css/secoes/footer.css" />
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="container">
+        <div class="row justify-content alinhar-itens-centro">
+          <a href="#"><h1 class="logo">VN</h1></a>
+          <nav>
+            <ul class="menu">
+              <li><a href="#sobre-mim">Sobre Mim</a></li>
+              <li><a href="#habilidades">Habilidades</a></li>
+              <li><a href="#meus-projetos">Meus Projetos</a></li>
+            </ul>
+            <div class="menu-mobile">
+              <div class="line1"></div>
+              <div class="line2"></div>
+              <div class="line3"></div>
             </div>
+          </nav>
         </div>
+      </div>
     </header>
 
     <main class="conteudo">
-        <section class="home">
-            <div class="container">
-                <div class="texto-home">
-                    <p>Olá 🍃,</p>
-                    <h1>Sou o Vinícius Oliveira</h1>
-                    <h3>Programador Fullstack</h3>
-                    <div class="redes">
-                        <a href="https://github.com/Vinitoider" target="_blank">
-                            <img src="src/imgs/icongit.png" alt="imagem github">
-                        </a>
-                        <a href="https://www.instagram.com/vinitoider_br/" target="_blank">
-                            <img src="src/imgs/iconinsta.png" alt="imagem instagram">
-                        </a>
-                    </div>
-                </div>
-                <div class="img-home">
-                    <img src="src/imgs/software-code-testing-animate.svg" alt="Imagem ilustrativa">
-                </div>
+      <section class="home" id="home">
+        <div class="container">
+          <div class="texto-home">
+            <p>Olá 🍃,</p>
+            <h1>Sou o Vinícius Oliveira</h1>
+            <h3>Programador Fullstack</h3>
+            <div class="redes">
+              <a href="https://github.com/Vinitoider" target="_blank">
+                <img src="src/imgs/icongit.png" alt="imagem github" />
+              </a>
+              <a
+                href="https://www.instagram.com/vinitoider_br/"
+                target="_blank"
+              >
+                <img src="src/imgs/iconinsta.png" alt="imagem instagram" />
+              </a>
             </div>
-        </section>
-        
-        <section class="sobre-mim" id="sobre-mim">
-            <div class="container">
-                <div class="titulo-section">
-                    <h1>Sobre Mim</h1>
-                </div>
-                <div class="div-sobremim">
-                    <div class="img-sobremim">
-                        <img src="src/imgs/Checklist-bro.svg" alt="Imagem ilustrativa de tarefas">
-                    </div>
-                    <div class="texto-sobremim">
-                        <strong>Olá! Me chamo Vinícius Oliveira e sou um programador Fullstack em formação!</strong>
-                        <p>Gosto MUITO da área de tecnologia, e tenho certeza que posso contribuir em qualquer time com as minhas habilidades.</p>
-                        <p>Estou sempre buscando evoluir minhas habilidades e aprendendo maneiras diferentes de resolver problemas usando o que sei de programação. Uso constantemente técnicas de autodesenvolvimento para evoluir como pessoa e profissionalmente! 🐸</p>
-                        <p>Além, claro, de gostar de jogos, filmes, podcasts e outras coisas. 💚</p>
-                        <div class="botoes">
-                            <a href="https://github.com/Vinitoider" class="botao" target="_blank">Veja meu Github</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+          </div>
+          <div class="img-home">
+            <img
+              src="src/imgs/software-code-testing-animate.svg"
+              alt="Imagem ilustrativa"
+            />
+          </div>
+        </div>
+      </section>
 
-        <section class="habilidades" id="habilidades">
-            <div class="container">
-                <div class="titulo-section">
-                    <h1>Habilidades</h1>
-                </div>
-                <div class="articles-habilidades">
-                    <article class="article"> <!-- HTML -->
-                        <div class="img-habilidades"><img src="src/imgs/html-5.png" alt="Icone do html"></div>
-                        <div class="titulo-articles">
-                            <h3>HTML5</h3>
-                        </div>
-                        <div class="desc-habilidades">
-                            HTML5 é a linguagem usada para criar conteúdo na web, permitindo recursos avançados, como vídeos e áudio embutidos.
-                        </div>
-                    </article>
-                    <article class="article"> <!-- CSS -->
-                        <div class="img-habilidades"><img src="src/imgs/css-3.png" alt="Icone do css"></div>
-                        <div class="titulo-articles">
-                            <h3>CSS3</h3>
-                        </div>
-                        <div class="desc-habilidades">
-                            CSS3 é a tecnologia para estilizar páginas web, controlando cores, fontes, layout e animações.
-                        </div>
-                    </article>
-                    <article class="article"> <!-- JS -->
-                        <div class="img-habilidades"><img src="src/imgs/js.png" alt="Icone do javascript"></div>
-                        <div class="titulo-articles">
-                            <h3>JavaScript</h3>
-                        </div>
-                        <div class="desc-habilidades">
-                            JavaScript é uma linguagem de programação para tornar páginas web interativas, respondendo a ações do usuário.
-                        </div>
-                    </article>
-                    <article class="article"> <!-- GITHUB -->
-                        <div class="img-habilidades"><img src="src/imgs/github.png" alt="Icone do github"></div>
-                        <div class="titulo-articles">
-                            <h3>GitHub</h3>
-                        </div>
-                        <div class="desc-habilidades">
-                            GitHub é uma plataforma para hospedar código-fonte, rastrear problemas e colaborar em projetos de software.
-                        </div>
-                    </article>
-                    <article class="article"> <!-- REACT -->
-                        <div class="img-habilidades"><img src="src/imgs/react.png" alt="Icone do react"></div>
-                        <div class="titulo-articles">
-                            <h3>React</h3>
-                        </div>
-                        <div class="desc-habilidades">
-                            React é uma biblioteca JavaScript para criar interfaces de usuário interativas, especialmente útil para aplicativos web e móveis.
-                        </div>
-                    </article>
-                </div>
+      <section class="sobre-mim" id="sobre-mim">
+        <div class="container">
+          <div class="titulo-section">
+            <h1>Sobre Mim</h1>
+          </div>
+          <div class="div-sobremim">
+            <div class="img-sobremim">
+              <img
+                src="src/imgs/Checklist-bro.svg"
+                alt="Imagem ilustrativa de tarefas"
+              />
             </div>
-        </section>
+            <div class="texto-sobremim">
+              <strong
+                >Olá! Me chamo Vinícius Oliveira e sou um programador Fullstack
+                em formação!</strong
+              >
+              <p>
+                Gosto MUITO da área de tecnologia, e tenho certeza que posso
+                contribuir em qualquer time com as minhas habilidades.
+              </p>
+              <p>
+                Estou sempre buscando evoluir minhas habilidades e aprendendo
+                maneiras diferentes de resolver problemas usando o que sei de
+                programação. Uso constantemente técnicas de autodesenvolvimento
+                para evoluir como pessoa e profissionalmente! 🐸
+              </p>
+              <p>
+                Além, claro, de gostar de jogos, filmes, podcasts e outras
+                coisas. 💚
+              </p>
+              <div class="botoes">
+                <a
+                  href="https://github.com/Vinitoider"
+                  class="botao"
+                  target="_blank"
+                  >Veja meu Github</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <section class="meus-projetos" id="meus-projetos">
-            <div class="container">
-                <div class="titulo-section">
-                    <h1>Meus Projetos</h1>
+      <section class="habilidades" id="habilidades">
+        <div class="container">
+          <div class="titulo-section">
+            <h1>Habilidades</h1>
+          </div>
+          <div class="articles-habilidades">
+            <article class="article">
+              <!-- HTML -->
+              <div class="img-habilidades">
+                <img src="src/imgs/html-5.png" alt="Icone do html" />
+              </div>
+              <div class="titulo-articles">
+                <h3>HTML5</h3>
+              </div>
+              <div class="desc-habilidades">
+                HTML5 é a linguagem usada para criar conteúdo na web, permitindo
+                recursos avançados, como vídeos e áudio embutidos.
+              </div>
+            </article>
+            <article class="article">
+              <!-- CSS -->
+              <div class="img-habilidades">
+                <img src="src/imgs/css-3.png" alt="Icone do css" />
+              </div>
+              <div class="titulo-articles">
+                <h3>CSS3</h3>
+              </div>
+              <div class="desc-habilidades">
+                CSS3 é a tecnologia para estilizar páginas web, controlando
+                cores, fontes, layout e animações.
+              </div>
+            </article>
+            <article class="article">
+              <!-- JS -->
+              <div class="img-habilidades">
+                <img src="src/imgs/js.png" alt="Icone do javascript" />
+              </div>
+              <div class="titulo-articles">
+                <h3>JavaScript</h3>
+              </div>
+              <div class="desc-habilidades">
+                JavaScript é uma linguagem de programação para tornar páginas
+                web interativas, respondendo a ações do usuário.
+              </div>
+            </article>
+            <article class="article">
+              <!-- GITHUB -->
+              <div class="img-habilidades">
+                <img src="src/imgs/github.png" alt="Icone do github" />
+              </div>
+              <div class="titulo-articles">
+                <h3>GitHub</h3>
+              </div>
+              <div class="desc-habilidades">
+                GitHub é uma plataforma para hospedar código-fonte, rastrear
+                problemas e colaborar em projetos de software.
+              </div>
+            </article>
+            <article class="article">
+              <!-- REACT -->
+              <div class="img-habilidades">
+                <img src="src/imgs/react.png" alt="Icone do react" />
+              </div>
+              <div class="titulo-articles">
+                <h3>React</h3>
+              </div>
+              <div class="desc-habilidades">
+                React é uma biblioteca JavaScript para criar interfaces de
+                usuário interativas, especialmente útil para aplicativos web e
+                móveis.
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="meus-projetos" id="meus-projetos">
+        <div class="container">
+          <div class="titulo-section">
+            <h1>Meus Projetos</h1>
+          </div>
+          <div class="articles-projetos">
+            <div class="projeto">
+              <a
+                href="https://vinitoider.github.io/tabuada-automatica/"
+                target="_blank"
+              >
+                <img
+                  src="src/imgs/ProjetoCalculadora.png"
+                  alt="Projeto de Tabuada"
+                />
+                <h3>Projeto de Tabuada</h3>
+                <div class="informacoes-projeto">
+                  <p>Projeto feito usando HTML, CSS e JavaScript.</p>
+                  <p>🔗 Ver no GitHub Pages</p>
                 </div>
-                <div class="articles-projetos">
-                    <div class="projeto">
-                        <a href="https://vinitoider.github.io/tabuada-automatica/" target="_blank">
-                            <img src="src/imgs/ProjetoCalculadora.png" alt="Projeto de Tabuada">
-                            <h3>Projeto de Tabuada</h3>
-                            <div class="informacoes-projeto">
-                                <p>Projeto feito usando HTML, CSS e JavaScript.</p>
-                                <p>🔗 Ver no GitHub Pages</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="projeto">
-                        <a href="https://vinitoider.github.io/onepiece-mostruario/" target="_blank">
-                            <img src="src/imgs/ProjetoOnepiece.png" alt="Projeto de One Piece">
-                            <h3>Projeto de Mostruário</h3>
-                            <div class="informacoes-projeto">
-                                <p>Projeto feito usando HTML, CSS e JavaScript.</p>
-                                <p>🔗 Ver no GitHub Pages</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="projeto">
-                        <a href="https://vinitoider.github.io/tomsjazzschool-landingpage/" target="_blank">
-                            <img src="src/imgs/ProjetoLandingpage.png" alt="Projeto de Landing Page">
-                            <h3>Projeto de Landing Page</h3>
-                            <div class="informacoes-projeto">
-                                <p>Projeto feito usando HTML, CSS e JavaScript.</p>
-                                <p>🔗 Ver no GitHub Pages</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="projeto">
-                        <a href="https://vinitoider.github.io/pagina-de-cadastro/" target="_blank">
-                            <img src="src/imgs/ProjetoLogin.png" alt="Projeto de Login">
-                            <h3>Projeto de Login</h3>
-                            <div class="informacoes-projeto">
-                                <p>Projeto feito usando HTML, CSS e JavaScript.</p>
-                                <p>🔗 Ver no GitHub Pages</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
+              </a>
             </div>
-        </section>
+            <div class="projeto">
+              <a
+                href="https://vinitoider.github.io/onepiece-mostruario/"
+                target="_blank"
+              >
+                <img
+                  src="src/imgs/ProjetoOnepiece.png"
+                  alt="Projeto de One Piece"
+                />
+                <h3>Projeto de Mostruário</h3>
+                <div class="informacoes-projeto">
+                  <p>Projeto feito usando HTML, CSS e JavaScript.</p>
+                  <p>🔗 Ver no GitHub Pages</p>
+                </div>
+              </a>
+            </div>
+            <div class="projeto">
+              <a
+                href="https://vinitoider.github.io/tomsjazzschool-landingpage/"
+                target="_blank"
+              >
+                <img
+                  src="src/imgs/ProjetoLandingpage.png"
+                  alt="Projeto de Landing Page"
+                />
+                <h3>Projeto de Landing Page</h3>
+                <div class="informacoes-projeto">
+                  <p>Projeto feito usando HTML e CSS.</p>
+                  <p>🔗 Ver no GitHub Pages</p>
+                </div>
+              </a>
+            </div>
+            <div class="projeto">
+              <a
+                href="https://vinitoider.github.io/pagina-de-cadastro/"
+                target="_blank"
+              >
+                <img src="src/imgs/ProjetoLogin.png" alt="Projeto de Login" />
+                <h3>Projeto de Login</h3>
+                <div class="informacoes-projeto">
+                  <p>Projeto feito usando HTML e CSS.</p>
+                  <p>🔗 Ver no GitHub Pages</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
-    <footer>
-
+    <footer class="footer">
+      <div class="container">
+        <div class="display-footer">
+          <div class="nav">
+            <nav>
+              <ul>
+                <li><a href="#header">Início</a></li>
+                <li><a href="#sobre-mim">Sobre Mim</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#meus-projetos">Meus Projetos</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="veja-mais">
+            <h2>Veja mais!</h2>
+            <div class="redes">
+              <a href="https://github.com/Vinitoider" target="_blank">
+                <img src="src/imgs/icongit.png" alt="imagem github" />
+              </a>
+              <a
+              href="https://www.instagram.com/vinitoider_br/"
+              target="_blank"
+              >
+              <img src="src/imgs/iconinsta.png" alt="imagem instagram" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </footer>
-
+    
     <script src="src/js/index.js"></script>
-</body>
-</html>
+  </body>
+  </html>
+  
