@@ -53,12 +53,12 @@
 }
 
 .img-home {
-    width: 500px;
-    margin: auto;
+    display: flex;
+    justify-content: center;
 }
 
 .img-home img {
-    width: 100%;
+    width: 520px;
 }
 
 @media (max-width: 1280px) {
@@ -75,7 +75,7 @@
 }
 
 @media (max-width: 530px) {
-    .home .img-home img{
+    .home .img-home {
         width: 350px;
     }
 }
