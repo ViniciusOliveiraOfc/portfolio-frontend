@@ -1,33 +1,11 @@
-class MobileNavBar {
-    constructor (mobileMenu, navList, navLinks) {
-        this.mobileMenu = document.querySelector(mobileMenu);
-        this.navList = document.querySelector(navList);
-        this.navLinks = document.querySelectorAll(navLinks);
-        this.activeClass = "active";
-
-        this.handleClick = this.handleClick.bind(this);
-    }
-
-    handleClick() {
-        this.navList.classList.toggle(this.activeClass)
-        this.mobileMenu.classList.toggle(this.activeClass)
-    }
-
-    addClickEvent() {
-        this.mobileMenu.addEventListener("click", () => this.handleClick())
-    }
-
-    init() {
-        if (this.mobileMenu) {
-            this.addClickEvent();
-        }
-        return this;
+function mudar() {
+    let menuMobile = document.querySelector('.menu-mobile')
+    let nav = document.querySelector('.header-nav')
+    if (menuMobile.classList.contains('active')) {
+        menuMobile.classList.remove('active')
+        nav.classList.remove('active')
+    } else {
+        menuMobile.classList.add('active')
+        nav.classList.add('active')
     }
 }
-
-const mobileNavbar = new MobileNavBar (
-    ".menu-mobile",
-    ".menu",
-    ".menu li" ,
-)
-mobileNavbar.init();

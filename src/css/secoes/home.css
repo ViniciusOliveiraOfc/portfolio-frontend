@@ -75,7 +75,7 @@
 }
 
 @media (max-width: 530px) {
-    .home .img-home {
-        width: 350px;
+    .home .img-home img{
+        width: 80vw;
     }
 }
